@@ -2,7 +2,7 @@
 
 Forked from [JoHoop](https://github.com/JoHoop/personal-website-react).
 
-![image](/current-state-of-website.jpg)
+![image](/current-state-of-website.JPG)
 
 # Customizations
 
