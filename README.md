@@ -2,6 +2,8 @@
 
 Forked from [JoHoop](https://github.com/JoHoop/personal-website-react).
 
+![image](/current-state-of-website.jpg)
+
 # Customizations
 
 - Add more social media buttons? Go to `\src\pages\Resume.js`
@@ -13,7 +15,13 @@ Forked from [JoHoop](https://github.com/JoHoop/personal-website-react).
             0.6
         );
         const ambientLight = new AmbientLight(
-            rgbToThreeColor("250 50 100"), // here
+            rgbToThreeColor("250 50 100"),              // <--- here
             theme === "light" ? 0.8 : 0.1
         );
 ```
+
+# TODO
+- Change logo SVGs and app favicon.
+- Change sponsor button to blog button and implement react router DOM for blog posts.
+- Change website title.
+- Potentially move out of AWS and back to github pages?
