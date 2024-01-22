@@ -1,48 +1,49 @@
 {
     "basics": {
-        "name": "Jo Lienhoop",
+        "name": "Asher Chok",
         "label": "Computer Science student",
-        "email": "hey@jolienhoop.com",
+        "email": "asherchok@outlook.com",
         "phone": "(XXX) XXX-XXXX",
         "picture": "jl.png",
-        "x_title": "Hey, I'm",
-        "job": "CS student",
-        "description": "Hey, I'm Jo Lienhoop, a Computer Science student based in Bremen, Germany. I love all things technical. Talk soon!",
-        "summary": "based in Bremen, Germany.",
-        "keywords": "personal,website,portfolio,template,kit,jo,lienhoop,jolienhoop,computer,science,bremen,germany,react,github,linkedin,google,gitlab,telegram,material,design,ui,webapp",
-        "url": "https://jolienhoop.com",
+        "x_title": "",
+        "job": "Software Engineer",
+        "current_company": "Oasis Scientific Inc.",
+        "description": "Hey, I'm Asher Chok, a SWE in Greenville, SC!",
+        "summary": "based in Sabah, Germany.",
+        "keywords": "personal,website,portfolio,template,kit,computer,science,Sabah,germany,react,github,linkedin,google,gitlab,telegram,material,design,ui,webapp",
+        "url": "https://www.asherchok.com",
         "location": {
             "address": "XX XXXXXstreet",
             "postalCode": "XXXXX",
-            "city": "Bremen",
-            "country": "Germany",
+            "city": "Sabah",
+            "country": "Malaysia",
             "countryCode": "DEU",
-            "region": "Bremen"
+            "region": "Sabah"
         },
         "profiles": [
             {
-                "network": "Google",
-                "username": "hey@jolienhoop.com",
-                "url": "mailto:hey@jolienhoop.com",
-                "x_icon": "fab fa-google"
-            },
-            {
-                "network": "LinkedIn",
-                "username": "jolienhoop",
-                "url": "https://www.linkedin.com/in/jolienhoop/",
-                "x_icon": "fab fa-linkedin-in"
-            },
-            {
                 "network": "GitHub",
-                "username": "johoop",
-                "url": "https://github.com/JoHoop",
+                "username": "asherchok",
+                "url": "https://github.com/asherchok",
                 "x_icon": "fab fa-github"
             },
             {
-                "network": "GitLab",
-                "username": "joli",
-                "url": "https://gitlab.informatik.uni-bremen.de/joli",
-                "x_icon": "fab fa-gitlab"
+                "network": "LinkedIn",
+                "username": "asherchok",
+                "url": "https://www.linkedin.com/in/asherchok/",
+                "x_icon": "fab fa-linkedin-in"
+            },
+            {
+                "network": "Instagram",
+                "username": "@asherchok",
+                "url": "https://www.instagram.com/asherchok/",
+                "x_icon": "fab fa-instagram"
+            },
+            {
+                "network": "Twitter",
+                "username": "@asherchok",
+                "url": "https://twitter.com/asherchok",
+                "x_icon": "fab fa-twitter"
             }
         ]
     },

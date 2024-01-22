@@ -98,11 +98,11 @@ const DisplacementSphere = (props) => {
 
     useEffect(() => {
         const dirLight = new DirectionalLight(
-            rgbToThreeColor("250 250 250"),
+            rgbToThreeColor("250 50 100"),
             0.6
         );
         const ambientLight = new AmbientLight(
-            rgbToThreeColor("250 250 250"),
+            rgbToThreeColor("250 50 100"),
             theme === "light" ? 0.8 : 0.1
         );
 
@@ -123,7 +123,7 @@ const DisplacementSphere = (props) => {
         const handleResize = () => {
             const canvasHeight = innerHeight();
             const windowWidth = window.innerWidth;
-            const fullHeight = canvasHeight + canvasHeight * 0.3;
+            const fullHeight = canvasHeight + canvasHeight * 0.05;
             canvasRef.current.style.height = fullHeight;
             renderer.current.setSize(windowWidth, fullHeight);
             camera.current.aspect = windowWidth / fullHeight;

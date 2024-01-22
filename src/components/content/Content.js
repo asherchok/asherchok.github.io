@@ -3,7 +3,7 @@ import { Typography, Container } from "@material-ui/core";
 import { makeStyles } from "@material-ui/core/styles";
 import { TextDecrypt } from "./TextDecrypt";
 import Resume from "../../settings/resume.json";
-import { FirstName } from "../../utils/getName";
+import { FirstName, LastName } from "../../utils/getName";
 
 const useStyles = makeStyles((theme) => ({
     main: {
@@ -21,11 +21,11 @@ export const Content = () => {
     return (
         <Container component="main" className={`${classes.main}`} maxWidth="sm">
             <Typography variant="h2" component="h1" gutterBottom>
-                <TextDecrypt text={`${Resume.basics.x_title} ${FirstName}`} />
+                <TextDecrypt text={`${Resume.basics.x_title} ${FirstName} ${LastName}`} />
             </Typography>
             <Typography variant="h5" component="h2" gutterBottom>
-                <TextDecrypt text={`a ${Resume.basics.job}`} />
-                <TextDecrypt text={`from ${Resume.basics.location.country}`} />
+                <TextDecrypt text={`${Resume.basics.job}`} />
+                <TextDecrypt text={`${Resume.basics.current_company}`} />
             </Typography>
         </Container>
     );
