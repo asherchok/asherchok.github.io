@@ -33,7 +33,7 @@ export const Home = () => {
         <Hidden mdUp>
           <SpeedDials />
         </Hidden>
-        <FooterText />
+        {/* <FooterText /> Needs to be edited to Blog button*/}
       </div>
     </>
   );

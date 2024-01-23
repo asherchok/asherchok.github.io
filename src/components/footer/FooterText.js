@@ -18,7 +18,6 @@ const useStyles = makeStyles((theme) => ({
     flexWrap: 'wrap',
   },
 }));
-
 export const FooterText = () => {
   const classes = useStyles();
 
@@ -38,3 +37,4 @@ export const FooterText = () => {
     </Link>
   );
 };
+

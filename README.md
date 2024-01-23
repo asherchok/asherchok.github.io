@@ -6,7 +6,7 @@ Forked from [JoHoop](https://github.com/JoHoop/personal-website-react).
 
 # Customizations
 
-- Add more social media buttons? Go to `\src\pages\Resume.js`
+- Add more social media buttons? Go to `\src\settings\Resume.json` and modify `{"basics" : { ..., "profiles" : [array]}`
 - Want to change sphere colors? Go to `\src\components\background\DisplacementSphere.js` and modify the following:
 ```
     useEffect(() => {
@@ -19,9 +19,36 @@ Forked from [JoHoop](https://github.com/JoHoop/personal-website-react).
             theme === "light" ? 0.8 : 0.1
         );
 ```
+- Selection color? Go to `\src\index.css` and modify the following:
+```
+::-moz-selection {
+    background: red;               // <--- here
+    color: #fafafa;
+    text-shadow: none;
+}
+::selection {
+    background: red;               // <--- here
+    color: #fafafa;
+    text-shadow: none;
+}
+```
 
 # TODO
-- Change logo SVGs and app favicon.
-- Change sponsor button to blog button and implement react router DOM for blog posts.
-- Change website title.
+- Implement a blog button by modifying sponsor button where
+```
+\src\pages\home.js
+
+export const Home = () => {
+  const classes = useStyles();
+
+  return (
+    <>
+        ...
+        {/* <FooterText /> Needs to be uncommented and modified to Blog button*/} <---
+      </div>
+    </>
+  );
+};
+```
+and the router DOM pages needs to be modified in `App.js` & `FooterText.js`.
 - Potentially move out of AWS and back to github pages?
